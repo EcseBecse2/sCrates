@@ -1,0 +1,12 @@
+name: sCrates
+version: '${project.version}'
+main: org.egyse.scrates.SCrates
+api-version: '1.19'
+softdepend:
+  - PlaceholderAPI
+commands:
+  crate:
+    aliases:
+      - crates
+      - scrate
+      - scrates

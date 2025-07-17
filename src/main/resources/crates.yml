@@ -1,0 +1,35 @@
+crates:
+  default:
+    displayname: "&7&lDefault &fCrate"
+    rows: 2 # 1-4. the top and bottom rows are filled with glass! Max prizes are 4*9(36)
+    preview: true
+    hologram:
+      enabled: true
+      offset: 0.5
+      text:
+        - "&7&lDefault &fCrate"
+        - ""
+        - "&eLeft-Click &f-> &epreview"
+        - "&eRight-Click &f-> &eopen"
+        - ""
+        - "&fYou have &6%crate_keys_default% &fkeys."
+    locations: [] # "worldname;x;y;z"
+    prizes:
+      '0':
+        material: COOKED_BEEF
+        displayname: "&f8x &asteak"
+        lore:
+          - "Chance: {chance}"
+        amount: 8
+        chance: 70
+        commands:
+          - "give {player} steak 8"
+      '1':
+        material: DIAMOND
+        displayname: "&f4x &bdiamond"
+        lore:
+          - "Chance: {chance}"
+        amount: 4
+        chance: 7.5
+        commands:
+          - "give {player} diamond 4"

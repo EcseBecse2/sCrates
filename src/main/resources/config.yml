@@ -1,0 +1,27 @@
+
+data:
+  auto-save: 180 # player and crate data auto saving interval in seconds
+
+messages:
+  prefix: "&d&lCRATES &8&l▸ &f"
+  no-permission: "&cNo permission."
+  player-only: "&cThis command can only be used by players."
+  invalid-crate: "&cCrate not found."
+  invalid-player: "&cPlayer not found."
+  invalid-amount: "&cThe amount has to be between 1 and 128."
+  no-target-block: "&cYou are not looking at a block, or you are too far from it."
+  crate-set: "&aYou have successfully set this crate."
+  successfully-gave: "&aYou successfully gave {player} x{amount} {crate} &akeys!"
+  received-keys: "&fYou received x&c{amount} &d{crate} &fkeys!"
+  list: "{crates}"
+  help:
+    - "&d&lCRATES"
+    - ""
+    - "&f/crate list"
+    - "&f/crate givekey <player> <crate> <amount>"
+    - "&f/crate set <crate>"
+    - "&f/crate reload"
+  no-crate-keys: "&cYou got no keys for this crate."
+  crate-removed: "&cCrate removed."
+  reloaded: "&aSuccessfully reloaded."
+  give-all: "&6&l{player} &eJust gave everyone a &6{crate} &ekey!"
