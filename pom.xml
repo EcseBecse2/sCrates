@@ -72,12 +72,6 @@
           <scope>provided</scope>
       </dependency>
       <dependency>
-          <groupId>me.clip</groupId>
-          <artifactId>placeholderapi</artifactId>
-          <version>2.11.1</version>
-          <scope>provided</scope>
-      </dependency>
-      <dependency>
           <groupId>com.google.code.gson</groupId>
           <artifactId>gson</artifactId>
           <version>2.11.0</version>
@@ -87,6 +81,12 @@
           <artifactId>annotations</artifactId>
           <version>24.1.0</version>
           <scope>compile</scope>
+      </dependency>
+      <dependency>
+          <groupId>me.clip</groupId>
+          <artifactId>placeholderapi</artifactId>
+          <version>2.11.1</version>
+          <scope>provided</scope>
       </dependency>
   </dependencies>
 </project>
